@@ -14,9 +14,16 @@ class CategoriaFactory extends Factory
     public function definition()
     {
         return [
+<<<<<<< HEAD
             //
             'descripcion' =>$this->faker->text(),
             'estado' => 1,
+=======
+            'descripcion' => $this->faker->text(),
+            'estado' => 1,
+            'stock' => 50,
+            'alias' => $this->faker->text(),
+>>>>>>> 60d728f4f0a521ea367007fcddd72a2ea8226f5d
         ];
     }
 }

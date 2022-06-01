@@ -25,4 +25,7 @@ Route::get('/categorias/create', [App\Http\Controllers\CategoriaController::clas
 Route::post('/categorias/insert', [App\Http\Controllers\CategoriaController::class, 'insert']);
 Route::get('/categorias/{id}/edit', [App\Http\Controllers\CategoriaController::class, 'edit']);
 Route::post('/categorias/update/{id}', [App\Http\Controllers\CategoriaController::class, 'update']);
+<<<<<<< HEAD
 Route::post('/categorias/delete/{id}', [App\Http\Controllers\CategoriaController::class, 'delete']);
+=======
+>>>>>>> 60d728f4f0a521ea367007fcddd72a2ea8226f5d
